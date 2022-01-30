@@ -1,0 +1,8 @@
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY, 
+  firstName character varying(20) NOT NULL,
+  lastName character varying(30) NOT NULL,
+  birthday DATE NOT NULL,
+  sex BIT(1) NOT NULL,
+  town character varying(20) NOT NULL
+);
